@@ -1,0 +1,230 @@
+* { 
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  src: url('inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
+
+
+
+/* nav */
+
+header { 
+  background-color: #ffffff;
+}
+
+header .nav-bar {
+  display: flex;
+  display: inline-block;
+
+}
+
+header .nav-bar .ul { 
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+header .nav-bar .ul .li {
+  display: flex;
+  list-style: none;
+}
+
+
+/* 
+.navigation {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter';
+  font-size: 1.25rem;
+  height: auto;
+  justify-content: center;
+  left: 0;
+  padding: 20px 0;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+}
+
+.navigation .menu li {
+  display: inline-block;
+  font-size: 1.25rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  transition: color .2s ease;
+}
+
+ul.menu {
+  font-size: .75rem;
+  padding: 5px .5rem 0 .5rem;
+}
+
+.navigation .menu li a {
+  color: rgb(160, 185, 255);
+  padding: .5rem;
+  text-decoration: none;
+}
+
+.navigation .menu li a:active {
+  color: rgb(29, 47, 97);
+}
+
+.navigation .max-width {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.max-width {
+  margin: auto;
+  max-width: fit-content;
+  padding: 0 1rem;
+} */
+
+
+
+body {
+  font-family: 'Inter';
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: 0;
+}
+
+.introduction {
+  margin-top: 40vh;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.full-section {
+  /* height: calc(100vh - 80px); */
+  height: 100vh;
+}
+
+.hello {
+  color: #d0826f;
+  font-family: 'Inter';
+  font-size: 1rem, 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: .5rem;
+}
+
+img.project1 {
+  margin: 1rem, .2rem, .2rem;
+}
+
+
+.project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8, .project9, .project10, .project11, .project12, .project13, .project14, .project15, .project16, .project17, .project18, .project19, .project20, .project21 {
+  display: block;
+  height: auto;
+  margin-top: 2rem;
+  margin: .5rem auto; 
+  max-width: 100%;
+  width: 80%;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty, .twentyone {
+  margin: .5rem;
+  padding: 0;
+}
+
+figcaption {
+  color: #d0826f;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.about {
+  color: #d0826f;
+}
+
+.resume {
+  display: block;
+  height: auto;
+  margin-top: 6rem;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  width: 85%;
+}
+
+.resume-name { 
+  color: #d0826f;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.background, .going-deeper-part-1, .going-deeper-part-2 {
+  line-height: 1.25rem;
+  text-indent: 30px;
+}
+
+
+/*
+Resume CSS Starts HERE 
+*/
+
+
+.resume-details {
+  line-height: 1rem;
+}
+
+h2 {
+  color: #b66652;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: rgb(43, 61, 112);
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+h4 {
+  color: rgb(109, 144, 238);
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+
+.details {
+  line-height: 1rem;
+}
+
+
+
+
+
+
+/* 
+color: #d0826f 
+color: rgb(160, 185, 255)
+color: rgb(29, 47, 97)
+color: rgb(43, 61, 112)
+color: rgb(109, 144, 238)
+color: #e6e6ed 
+color: #fff
+color: #000
+
+
+mpeg 
+H.264 
+
+iPhone 8 viewport = 375 x 667 
+
+*/ 
